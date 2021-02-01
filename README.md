@@ -23,4 +23,4 @@ This code is for BMP280 sensor data shown in Yours Android BLYNK application.Thi
               
  * Blynk Application interface :
  
- ![Screenshot of blynk app in android device]()
+ ![Screenshot of blynk app in android device](blynk_app%5B1%5D.jpg)
