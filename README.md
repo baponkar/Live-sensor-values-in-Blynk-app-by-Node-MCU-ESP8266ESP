@@ -1,7 +1,9 @@
 # Showing Live sensor values in Blynk app by Node MCU ESP8266ESP
 ----------------------------------------------------------------
 * You can monitor yours room weather from anywhere of world and also able to control a LED from anywhare.
+
 -[x] Functionaliity: 
+
 This code is for BMP280 sensor data shown in Yours Android BLYNK application.This code has following functionality:
 1. Shown temperature in Blynk app over internet.
 2. Shown pressure in Blynk app over internet.
