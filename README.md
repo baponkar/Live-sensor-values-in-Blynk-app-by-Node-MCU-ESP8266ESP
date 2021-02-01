@@ -11,6 +11,8 @@ This code is for BMP280 sensor data shown in Yours Android BLYNK application.Thi
 6. Blue led control with blynk control over the internet.
 7. It is set a custom name to connect into internet
 8. Displaying the uptime of the device in the internet.
+9. Send notification into android device for certain selected sensor value range.
+10. Send notification into selected mail address for certain selected sensor value ranges.
 
 - [x] Components : NODE MCU ESP8266 WIFI Board, BMP280 Sensor, red LED, green LED, BLUE LED,3pieces 1K resistor,jumping wires,
                   Data Cable,Arduino IDE in computer or Smart phone.
