@@ -12,9 +12,10 @@ This code is for BMP280 sensor data shown in Yours Android BLYNK application.Thi
 7.It is set a custom name to connect into internet
 8. Displaying the uptime of the device in the internet.
 
--[x] Components : NODE MCU ESP8266 WIFI Board, BMP280 Sensor, red LED, green LED, BLUE LED,3pieces 1K resistor,jumping wires,
+- [x] Components : NODE MCU ESP8266 WIFI Board, BMP280 Sensor, red LED, green LED, BLUE LED,3pieces 1K resistor,jumping wires,
                   Data Cable,Arduino IDE in computer or Smart phone.
--[x] Wiring : Connect Blue LED into boards D0 Pin,connect red LED into boards D3 Pin,connect green LED into boards D4 Pin,
+                  
+- [x] Wiring : Connect Blue LED into boards D0 Pin,connect red LED into boards D3 Pin,connect green LED into boards D4 Pin,
               + pin of BMP280 hooked up with 3.3 Volt of board,- pin of BMP280 hooked up with ground pin of esp8266 board.
               SCK or SCL pin of BMP280 hooked up with D1 pin of esp8266 board,SDA pin conncet to D2 pin of board.
               There is no connection for CSB and SD0.Then download Arduino IDE for yours OS and install the Blynk,Time ,WidgetRTC libraries and
