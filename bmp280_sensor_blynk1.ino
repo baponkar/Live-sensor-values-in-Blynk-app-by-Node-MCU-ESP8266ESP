@@ -41,12 +41,12 @@ Adafruit_Sensor *bmp_pressure = bmp.getPressureSensor();
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = " 9PjpcgitFJKh-DIDZ2dRaetvas8qG-I8";
+char auth[] = " 9PjpcgGHMNtFJKh-DIDZ2daetvas8qG-8";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "RaspberryPiWiFi";
-char pass[] = "mutta)$&783#*(5690";
+char ssid[] = "SSID";
+char pass[] = "PASSWORD";
 
 BlynkTimer timer;
 WidgetRTC rtc;
