@@ -8,6 +8,8 @@
   6. Blue led control with blynk control over the internet.
   7.It is set a custom name to connect into internet
   8. Displaying the uptime of the device in the internet.
+  9. Send notification into the android device for certain selected sensor values.
+  10. Send notification into the selected email address for certain selected sensor values.
   Components : NODE MCU ESP8266 WIFI Board, BMP280 Sensor, red LED, green LED, BLUE LED,3pieces 1K resistor,jumping wires,
                Data Cable,Arduino IDE in computer or Smart phone.
 
@@ -89,15 +91,15 @@ void mySensorEvent()
   Blynk.virtualWrite(V6,pressure);
   Blynk.virtualWrite(V7,altitude);
 
-  if ( temp < 12) 
+  if ( temp < 12)
   {
-    Blynk.notify("It is a Extream Winter!"); //send notification into android device
-    Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream Winter!"); //send notification into email
+    Blynk.notify("It is a Extream Winter!");
+    Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream Winter!");
   }
   else if ( temp > 40)
   {
     Blynk.notify("It is a Extream hot!");
-     Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream hot!");
+     Blynk.email("Baponkar@gmail.com","ESP8266 Sensor alert!","It is a Extream hot!");
   }
   
 }
