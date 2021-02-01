@@ -1,6 +1,6 @@
 # Showing Live sensor values in Blynk app by Node MCU ESP8266ESP
 ----------------------------------------------------------------
-* You can monitor yours room weather from anywhere of world and also able to control a LED from anywhare.
+* <p style='color:green'> You can monitor yours room weather from anywhere of world and also able to control a LED from anywhare.</p>
 
 - [x] Functionaliity: 
 
@@ -25,7 +25,7 @@ This code is for BMP280 sensor data shown in Yours Android BLYNK application.Thi
               + pin of BMP280 hooked up with 3.3 Volt of board,- pin of BMP280 hooked up with ground pin of esp8266 board.
               SCK or SCL pin of BMP280 hooked up with D1 pin of esp8266 board,SDA pin conncet to D2 pin of board.
               There is no connection for CSB and SD0.Then download Arduino IDE for yours OS and install the [Blynk,Time ,WidgetRTC libraries](https://www.arduino.cc/en/guide/libraries) and
-              costract Arduino IDE for uploading code into esp8266.If don't know how do you ready yours Arduino IDE for esp8266 then read [this](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/#:~:text=%20To%20install%20the%20ESP8266%20board%20in%20your,be%20installed%20after%20a%20few%20seconds.%20More).Now upload this code into esp8266 and make a [Blynk](https://blynk.io/) app in android app called Blynk.If  don't know How do you make Blynk app then read [this](https://docs.blynk.cc/#:~:text=%20Getting%20Started%20With%20The%20Blynk%20App%20,hardware%20to%20your%20smartphone.%20Every%20new...%20More)
+              costract Arduino IDE for uploading code into esp8266.If don't know how do you ready yours Arduino IDE for esp8266 then read [this](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/#:~:text=%20To%20install%20the%20ESP8266%20board%20in%20your,be%20installed%20after%20a%20few%20seconds.%20More).Now upload this code into esp8266 and make a [Blynk](https://blynk.io/) app in android app called Blynk.If  don't know How do you make Blynk app then read [this](https://docs.blynk.cc/#:~:text=%20Getting%20Started%20With%20The%20Blynk%20App%20,hardware%20to%20your%20smartphone.%20Every%20new...%20More) .
               
  * Blynk Application interface :
  
