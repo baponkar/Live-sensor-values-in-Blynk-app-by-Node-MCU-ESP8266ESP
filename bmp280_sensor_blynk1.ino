@@ -89,15 +89,15 @@ void mySensorEvent()
   Blynk.virtualWrite(V6,pressure);
   Blynk.virtualWrite(V7,altitude);
 
-  if ( temp < 12)
+  if ( temp < 12) 
   {
-    Blynk.notify("It is a Extream Winter!");
-    Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream Winter!");
+    Blynk.notify("It is a Extream Winter!"); //send notification into android device
+    Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream Winter!"); //send notification into email
   }
   else if ( temp > 40)
   {
     Blynk.notify("It is a Extream hot!");
-     Blynk.email("Baponkar@gmail.com","ESP8266 Sensor alert!","It is a Extream hot!");
+     Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream hot!");
   }
   
 }
