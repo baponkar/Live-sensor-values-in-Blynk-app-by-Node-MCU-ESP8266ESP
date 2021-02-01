@@ -1,6 +1,6 @@
 # Showing Live sensor values in Blynk app by Node MCU ESP8266ESP
 ----------------------------------------------------------------
-## <p style='color:green'>You can monitor yours room weather from anywhere of world and also able to control a LED from anywhare.</p>
+## <p style='color:green'>You can monitor yours room weather from anywhere of  the world and also able to control a LED from anywhare.</p>
 
 - [x] Functionaliity: 
 
