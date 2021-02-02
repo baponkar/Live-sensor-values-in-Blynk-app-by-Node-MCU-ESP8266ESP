@@ -12,6 +12,7 @@
   10. Send notification into the selected email address for certain selected sensor values.
   Components : NODE MCU ESP8266 WIFI Board, BMP280 Sensor, red LED, green LED, BLUE LED,3pieces 1K resistor,jumping wires,
                Data Cable,Arduino IDE in computer or Smart phone.
+  Libraries: AdafruitBMP280,Blynk,WidgetRTC,TimeLib,ESP8266 
 
   Wiring : Connect Blue LED into boards D0 Pin,connect red LED into boards D3 Pin,connect green LED into boards D4 Pin,
            + pin of BMP280 hooked up with 3.3 Volt of board,- pin of BMP280 hooked up with ground pin of esp8266 board.
