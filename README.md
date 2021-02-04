@@ -31,6 +31,7 @@ This code is for BMP280 sensor data shown in Yours Android BLYNK application.Thi
               SCK or SCL pin of BMP280 hooked up with D1 pin of esp8266 board,SDA pin conncet to D2 pin of board.
               There is no connection for CSB and SD0.Then download Arduino IDE for yours OS and install the [Adafruitbmp280, Blynk,Time ,WidgetRTC libraries](https://www.arduino.cc/en/guide/libraries) and
               costract Arduino IDE for uploading code into esp8266.If don't know how do you ready yours Arduino IDE for esp8266 then read [this](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/#:~:text=%20To%20install%20the%20ESP8266%20board%20in%20your,be%20installed%20after%20a%20few%20seconds.%20More).Now upload this code into esp8266 and make a [Blynk](https://blynk.io/) app in android app called Blynk.If  don't know How do you make Blynk app then read [this](https://docs.blynk.cc/#:~:text=%20Getting%20Started%20With%20The%20Blynk%20App%20,hardware%20to%20your%20smartphone.%20Every%20new...%20More) .
+![Electronic set](20210204_234336.jpg)
               
  * Blynk Application interface :
  
